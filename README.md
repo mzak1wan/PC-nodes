@@ -1,7 +1,7 @@
 # PC-NODEs
 ## Physically Consistent Neural Ordinary Differential Equations
 
-This repository will gater the code and data of PC-NODEs, a paper submitted to the [IFAC 2023 conference](https://www.ifac2023.org/). It will be made open source upon acceptance to the conference.
+This repository gathers the code and data of PC-NODEs, a paper submitted to the [IFAC 2023 conference](https://www.ifac2023.org/) and available on arXiv.
 
 ## Authors 
 Muhammad Zakwan, Loris Di Natale, Bratislav Svetozarevic, Philipp Heer, Colin Jones, and Giancarlo Ferrari Trecate
@@ -10,3 +10,8 @@ Laboratoire d'Automatique, EPFL, Switzerland
 Urban Energy Systems Lab, Empa, Switzerland
 
 For more information, please contact [muhammad.zakwan@epfl.ch](muhammad.zakwan@epfl.ch) or [loris.dinatale@empa.ch](loris.dinatale@empa.ch).
+
+## Installation
+The fastest way to run the code is to use `poetry`, which can be installed from [here](https://python-poetry.org/docs/#installation).  
+
+After cloning the repository on your computer, you can go to the pc-node folder (`cd path_to_the_folder/pc-node`) and run `poetry install` to install all the required dependencies. You can then run jupyter-lab with `poetry run Jupiter lab`.

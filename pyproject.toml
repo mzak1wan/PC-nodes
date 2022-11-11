@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "pinode"
+version = "0.1.0"
+description = ""
+authors = ["Loris Di Natale <loris.dinatale@empa.ch>"]
+readme = "README.md"
+
+packages = [
+    { include = "util", from="pinode" },
+    { include = "models", from="pinode" },
+    { include = "data", from="pinode" },
+]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.12"
+jupyterlab = "^3.4.7"
+torch = "^1.12.1"
+astral = "1.10.1"
+pandas = "^1.5.0"
+numpy = "^1.23.3"
+matplotlib = "^3.6.0"
+scipy = "^1.9.1"
+scikit-learn = "^1.1.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
