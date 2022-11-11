@@ -14,4 +14,6 @@ For more information, please contact [muhammad.zakwan@epfl.ch](muhammad.zakwan@e
 ## Installation
 The fastest way to run the code is to use `poetry`, which can be installed from [here](https://python-poetry.org/docs/#installation).  
 
-After cloning the repository on your computer, you can go to the pc-node folder (`cd path_to_the_folder/pc-node`) and run `poetry install` to install all the required dependencies. You can then run jupyter-lab with `poetry run Jupiter lab`.
+After cloning the repository on your computer, you can go to the pc-node folder with `cd path_to_the_folder/pc-node`.  
+You can then run `poetry install` to install all the required dependencies. 
+Once the dependencies are installed, you can for example run jupyter-lab with `poetry run jupiter lab`.
