@@ -1,7 +1,7 @@
 # PC-NODEs
-## Physically Consistent Neural Ordinary Differential Equations
+## Physically Consistent Neural ODEs for Learning Multi-Physics Systems
 
-This repository gathers the code and data of PC-NODEs, a paper submitted to the [IFAC 2023 conference](https://www.ifac2023.org/) and available on arXiv.
+This repository gathers the code and data of PC-NODEs, a paper submitted to the [IFAC 2023 conference](https://www.ifac2023.org/) and available on [arXiv](https://arxiv.org/abs/2211.06130).
 
 ## Authors 
 Muhammad Zakwan, Loris Di Natale, Bratislav Svetozarevic, Philipp Heer, Colin Jones, and Giancarlo Ferrari Trecate
